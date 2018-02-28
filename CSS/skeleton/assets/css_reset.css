@@ -1,0 +1,21 @@
+h1, h2, user_review {
+  font-size: inherit;
+}
+
+
+ul li a, figcaption a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+body {
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+
+header > img {
+  width: 100%;
+}
