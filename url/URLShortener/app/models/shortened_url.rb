@@ -1,5 +1,6 @@
 class ShortenedUrl < ApplicationRecord
-  validates :long_url, :short_url, :user_id, presence: true, uniqueness: true
+  validates :long_url, :short_url, presence: true, uniqueness: true
+  validates :user_id, presence: true
 
   def self.random_code
     random_num = SecureRandom::urlsafe_base64(16)
