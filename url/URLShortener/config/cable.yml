@@ -7,4 +7,4 @@ test:
 production:
   adapter: redis
   url: redis://localhost:6379/1
-  channel_prefix: URLShortner_production
+  channel_prefix: URLShortener_production
